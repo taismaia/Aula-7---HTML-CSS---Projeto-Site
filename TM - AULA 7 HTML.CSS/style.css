@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: black;
+    font-family: "Jost", sans-serif;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 30px;
+    height: 120px;
+    line-height: 120px;
+}
+
+.cabecalho-logo{
+    max-width: 255px;
+    height: 110px;
+}
+
+.cabecalho-lista{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.cabecalho-lista-item{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: "Jost", sans-serif;
+}
+
+
+.container{
+    background-image: url("https://img.odcdn.com.br/wp-content/uploads/2024/02/Yellowstone-via-Paramount-reproducao.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.caixinha{
+    background-color: rgba(255, 255, 255, 0.356);
+    border-radius: 5px;
+    padding: 15px 30px;
+    color: black;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.botao{
+    margin-top: 15px;
+    background-color: rgba(7, 6, 6, 0.705);
+    border-radius: 7px;
+    align-items: center;
+    justify-content:space-around;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #C88A31;
+
+}
